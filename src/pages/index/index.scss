@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+@import '../../styles/fonts';
+@import '../../styles/mixns';
+@import '../../styles/scaffolding';
+@import '../../styles/animations';
+@import "../../components/index";
+@import "../../layout/style";
+
+.index {
+
+}
+
+.test {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  &__squere {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid red;
+    font-size: 2rem;
+    &:hover {
+      border: .1rem solid green;
+      animation: test ease 1.3s ;
+      animation-fill-mode: forwards;
+    }
+  }
+}

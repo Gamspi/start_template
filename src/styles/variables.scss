@@ -1,0 +1,18 @@
+//colors
+$primaryColor: #fff;
+$secondaryColor: #3D4245;
+
+// fonts
+$primaryFont: 'Roboto', sans-serif;
+$secondaryFont: 'Open Sans', sans-serif;
+
+// breakpoints
+$mobileBreakpoint: 360;
+$tabletBreakpoint: 768;
+$desktopBreakpoint: 1024;
+$widthDesktopBreakpoint: 1920;
+
+// background
+
+//пример
+$tablet: '(min-width: #{ $tabletBreakpoint })'
