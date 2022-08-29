@@ -5,5 +5,11 @@
   height: 7.5rem;
   display: flex;
   justify-content: space-between;
-  padding: 1rem ;
+  padding: 1rem;
+
+  &__burger {
+    @include minMediaDesktop{
+      display: none;
+    }
+  }
 }
